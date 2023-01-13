@@ -47,7 +47,7 @@ class PredictText extends Model{
     public function predict(array $data){
 
         if (!isset($this->model)){
-            throw new ModelNotTrainedException();
+            throw new ModelNotTrainedException("Tried to predict before training the model");
         }
 
         if (gettype($data[0]) == 'string'){
