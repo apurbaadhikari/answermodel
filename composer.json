@@ -1,0 +1,20 @@
+{
+    "name": "apurba/answermodel",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Apurba\\AnswerModel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Apurba Adhikari",
+            "email": "apurba@tekgro.com.au"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+        "php-ai/php-ml": "^0.10.0"
+    }
+}
